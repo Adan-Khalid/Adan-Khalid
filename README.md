@@ -6,13 +6,21 @@ I like projects that can be checked: real data, a baseline to beat, honest limit
 
 ## Projects
 
+### Radar
+
+| Project | What it does | Result |
+| --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/Adan-Khalid/radar-perception-tracking/main/assets/social-preview.png" width="160" alt="Radar bird's-eye view with two tracks following a pedestrian and a cyclist at their labelled boxes"><br>[Pedestrians, cyclists and cars from one radar chip](https://github.com/Adan-Khalid/radar-perception-tracking) | Turns raw 77 GHz samples from a TI radar chip into tracked, classified road users: range, Doppler and angle FFTs, CFAR detection, a Kalman tracker that uses radial speed, and a per-track classifier | On a recording day held out until the end: identity kept over time (IDF1) 0.48 vs 0.33 for a nearest-neighbour baseline; right class for 15 of 18 tracks |
+
+### Biomedical signals
+
 | Project | What it does | Result |
 | --- | --- | --- |
 | <img src="https://raw.githubusercontent.com/Adan-Khalid/ecg-quality-beat-detection/main/assets/thumb.png" width="160" alt="25 hours of wearable ECG coloured by predicted quality"><br>[ECG signal quality and beat detection](https://github.com/Adan-Khalid/ecg-quality-beat-detection) | Labels each 10 s of wearable ECG as clean, QRS-only or unusable on people the model never saw, with a Pan-Tompkins detector written from the 1985 paper | Quality macro-F1 0.77 vs 0.63 for a rule-based baseline (leave-one-subject-out); Pan-Tompkins Se 99.68 %, +P 99.47 % on MIT-BIH |
 
 ## Tools
 
-Python · NumPy · SciPy · scikit-learn · PyTorch · WFDB · Streamlit · Git and GitHub Actions
+Python · NumPy · SciPy · scikit-learn · PyTorch · Stone Soup · Rerun · WFDB · Streamlit · Git and GitHub Actions
 
 ## Up next
 
