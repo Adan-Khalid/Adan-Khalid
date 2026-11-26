@@ -10,6 +10,7 @@ I like projects that can be checked: real data, a baseline to beat, honest limit
 
 | Project | What it does | Result |
 | --- | --- | --- |
+| <img src="https://raw.githubusercontent.com/Adan-Khalid/radar-waveform-design/main/assets/social-preview.png" width="160" alt="Chart of detection loss against ADC bits for three code lengths, beside the project title"><br>[Radar Waveform Design and Matched Filtering: LFM, Phase-Coded and OFDM Pulses with Low-Bit ADC Analysis](https://github.com/Adan-Khalid/radar-waveform-design) | Compares five radar pulses at equal bandwidth and duration (sidelobes, Doppler tolerance, sidelobe filters and their SNR cost) and measures what a 1 to 4-bit ADC costs in detection, by Monte Carlo checked against theory | 3 bits cost 0.17 dB and 1 bit 2.34 dB of detection SNR (theory 0.17 and 1.96 dB); with a 13-chip code, 1 bit costs 5.4 dB |
 | <img src="https://raw.githubusercontent.com/Adan-Khalid/radar-perception-tracking/main/assets/social-preview.png" width="160" alt="Radar bird's-eye view with two tracks following a pedestrian and a cyclist at their labelled boxes"><br>[Pedestrians, cyclists and cars from one radar chip](https://github.com/Adan-Khalid/radar-perception-tracking) | Turns raw 77 GHz samples from a TI radar chip into tracked, classified road users: range, Doppler and angle FFTs, CFAR detection, a Kalman tracker that uses radial speed, and a per-track classifier | On a recording day held out until the end: identity kept over time (IDF1) 0.48 vs 0.33 for a nearest-neighbour baseline; right class for 15 of 18 tracks |
 
 ### Biomedical signals
@@ -20,7 +21,7 @@ I like projects that can be checked: real data, a baseline to beat, honest limit
 
 ## Tools
 
-Python · NumPy · SciPy · scikit-learn · PyTorch · Stone Soup · Rerun · WFDB · Streamlit · Git and GitHub Actions
+Python · NumPy · SciPy · Matplotlib · scikit-learn · PyTorch · Stone Soup · Rerun · WFDB · Streamlit · pytest · Git and GitHub Actions
 
 ## Up next
 
